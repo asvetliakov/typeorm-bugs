@@ -1,0 +1,12 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "port": 7777,
+    "username": "root",
+    "password": "developer",
+    "database": "test",
+    "entities": ["dist/entity/*.js"],
+    "migrations": ["dist/migrations/*.js"],
+    "migrationsRun": false,
+    "synchronize": false
+}
